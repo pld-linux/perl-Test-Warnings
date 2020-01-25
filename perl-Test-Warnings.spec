@@ -4,7 +4,6 @@
 #
 %define		pdir	Test
 %define		pnam	Warnings
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::Warnings - Test for warnings and the lack of them
 Summary(pl.UTF-8):	Test::Warnings - testowanie pod kątem ostrzeżeń i ich braku
 Name:		perl-Test-Warnings
