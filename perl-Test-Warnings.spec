@@ -7,18 +7,18 @@
 Summary:	Test::Warnings - Test for warnings and the lack of them
 Summary(pl.UTF-8):	Test::Warnings - testowanie pod kątem ostrzeżeń i ich braku
 Name:		perl-Test-Warnings
-Version:	0.026
+Version:	0.030
 Release:	1
 # same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1a379f7eac4c89155d98e652459593a7
-URL:		http://search.cpan.org/dist/Test-Warnings/
+# Source0-md5:	d30550a4898499daf351f9cf31602121
+URL:		https://metacpan.org/release/Test-Warnings
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
-BuildRequires:	perl-Test-Deep
 BuildRequires:	perl-Test-Simple >= 0.94
 BuildRequires:	perl-Test-Tester >= 0.108
 %endif
